@@ -3,48 +3,47 @@
 }
 
 body {
-    margin: 0;
-    font-family: Roboto;
-  }
+  margin: 0;
+  font-family: Roboto;
+  
+}
 
 .register {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* width: 100%; */
+  height: 100vh;
 }
 
 .register-form {
-  flex: .3;
+  flex: 0.3;
   background-color: #eeeeee;
   color: #000000;
   padding: 5rem;
 }
 
-
-
-
-.form-image {
-  flex: 1;
-  width: 1200px;
-  height: 900px;
-  background-image: url(https://picsum.photos/1200/900);
-}
-
-
-
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    flex: 1;
+    /* max-width: 1200px; */
+    /* max-height: 900px; */
+    background-image: url(https://picsum.photos/1200/900);
+  }
 h1 {
   margin: 40px auto;
   color: #0a6cff;
   text-align: center;
 }
 ul {
-  padding: 0;
+  padding: 5rem;
   list-style-type: none;
 }
 li {
   padding: 6px 10px;
-  border: 1px solid #eee;
-  margin: 10px auto;
+  border: 1px solid darkred;
+  margin-bottom: 10px;
 }
 li h4 {
   color: #0a6cff;
@@ -79,7 +78,7 @@ select {
   margin: 0 10px;
 }
 button {
-    width: 70%;
+  width: 70%;
   margin-top: 1rem;
   color: white;
   border: 0;
