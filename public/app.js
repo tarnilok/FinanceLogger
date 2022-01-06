@@ -11,7 +11,7 @@ const list = new ListTemplate(ul);
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     let values;
-    values = [tofrom.value, details.value, amount.valueAsNumber];
+    values = [tofrom === null || tofrom === void 0 ? void 0 : tofrom.value, details === null || details === void 0 ? void 0 : details.value, amount === null || amount === void 0 ? void 0 : amount.valueAsNumber];
     let doc;
     if (type.value === 'invoice') {
         doc = new Invoice(...values);

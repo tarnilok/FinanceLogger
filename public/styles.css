@@ -17,19 +17,19 @@ body {
 }
 
 .register-form {
-  flex: 0.3;
+  flex: 1;
   background-color: #eeeeee;
   color: #000000;
-  padding: 5rem;
+  padding: 10rem;
+  font-size: 1.7rem;
 }
 
-.wrapper{
-    max-width: 960px;
+.wrapper{ 
     margin: 0 auto;
-    flex: 1;
-    /* max-width: 1200px; */
-    /* max-height: 900px; */
+    flex: 5;
     background-image: url(https://picsum.photos/1200/900);
+    background-repeat: "no-repeat";
+    background-size: cover;
   }
 h1 {
   margin: 40px auto;
@@ -42,8 +42,9 @@ ul {
 }
 li {
   padding: 6px 10px;
-  border: 1px solid darkred;
+  border: 2px solid darkred;
   margin-bottom: 10px;
+  background-color: cornsilk;
 }
 li h4 {
   color: #0a6cff;
@@ -72,20 +73,26 @@ select {
   padding: 6px;
   border: 1px solid #e1e1e1;
   border-radius: 4px;
+  height: 2.5rem;
+  width: 18rem;
 }
 .field {
   display: inline-block;
   margin: 0 10px;
 }
 button {
-  width: 70%;
-  margin-top: 1rem;
+  width: 18rem;
+  height: 2.5rem;
+  margin-top: 2rem;
   color: white;
   border: 0;
   background: #0a6cff;
   padding: 6px;
-  min-width: 80px;
+  /* min-width: 80px; */
   border-radius: 4px;
+}
+button:hover {
+    cursor: pointer;
 }
 a {
   text-align: center;
